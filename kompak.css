@@ -242,3 +242,6 @@ details.faq p { margin: 8px 0 2px; color: var(--muted); }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
 .same { color: var(--muted); font-size: .9em; }
+/* Di mode gelap teks penanda berwarna gelap, jadi latarnya harus kuning penuh agar semua hurufnya terbaca. */
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .mark { background: var(--accent); border-radius: 0.18em; } }
+:root[data-theme="dark"] .mark { background: var(--accent); border-radius: 0.18em; }
