@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://jalfarobby-tech.github.io/Kompak/sitemap.xml
+Sitemap: https://kompak.biz.id/sitemap.xml

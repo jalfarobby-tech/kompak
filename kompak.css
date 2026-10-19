@@ -216,10 +216,8 @@ details.faq p { margin: 8px 0 2px; color: var(--muted); }
 .related a { display: inline-block; padding: 7px 14px; border: 1px solid var(--line-strong); border-radius: 99px; background: var(--surface); text-decoration: none; font-weight: 600; }
 .related a:hover { background: var(--accent); border-color: var(--ink); color: var(--accent-ink); }
 .site-foot { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--line); display: grid; gap: 8px; font-size: 0.875rem; color: var(--muted); }
-.acp { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
-.acp-mark { background: var(--accent); color: var(--accent-ink); font-weight: 800; font-stretch: 80%; letter-spacing: 0.04em; border-radius: 8px; padding: 3px 9px; }
-.acp-line { margin: 0; color: var(--ink); font-weight: 700; }
 .site-foot p { margin: 0; }
+.site-foot .credit { margin-top: 10px; text-align: center; font-size: 0.72rem; letter-spacing: 0.02em; color: var(--muted); opacity: 0.85; }
 
 @media (max-width: 760px) {
   .hero { grid-template-columns: minmax(0, 1fr); gap: 22px; }
@@ -245,3 +243,14 @@ details.faq p { margin: 8px 0 2px; color: var(--muted); }
 /* Di mode gelap teks penanda berwarna gelap, jadi latarnya harus kuning penuh agar semua hurufnya terbaca. */
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .mark { background: var(--accent); border-radius: 0.18em; } }
 :root[data-theme="dark"] .mark { background: var(--accent); border-radius: 0.18em; }
+
+/* tanda tangan PDF */
+.signui { display: grid; gap: 10px; }
+.sg-step { margin: 6px 0 0; font-weight: 700; }
+.padwrap { background: var(--surface); border: 1.5px dashed var(--line-strong); border-radius: 12px; overflow: hidden; line-height: 0; }
+.sigpad { display: block; width: 100%; height: auto; aspect-ratio: 3 / 1; touch-action: none; cursor: crosshair; }
+.padbar { display: flex; flex-wrap: wrap; gap: 6px 18px; }
+.pgwrap { position: relative; justify-self: start; max-width: 100%; line-height: 0; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: #fff; user-select: none; -webkit-user-select: none; touch-action: pan-y; }
+.pgcv { display: block; max-width: 100%; }
+.sigov { position: absolute; cursor: grab; touch-action: none; outline: 1.5px dashed var(--line-strong); outline-offset: 2px; background: rgba(255, 217, 59, 0.12); }
+.sigov:active { cursor: grabbing; }
