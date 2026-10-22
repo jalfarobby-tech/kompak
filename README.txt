@@ -1,5 +1,5 @@
 KOMPAK - situs kompres foto dan olah PDF
-Develop ACP — Alfa Creative Project by Alfarobby
+ACP · Alfa Creative Project — Developed by Alfarobby
 
 Alamat situs di file ini: https://kompak.biz.id
 Isi folder ini sudah lengkap, semua pustaka ada di folder vendor/ dan huruf di fonts/.

@@ -217,7 +217,7 @@ details.faq p { margin: 8px 0 2px; color: var(--muted); }
 .related a:hover { background: var(--accent); border-color: var(--ink); color: var(--accent-ink); }
 .site-foot { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--line); display: grid; gap: 8px; font-size: 0.875rem; color: var(--muted); }
 .site-foot p { margin: 0; }
-.site-foot .credit { margin-top: 10px; text-align: center; font-size: 0.72rem; letter-spacing: 0.02em; color: var(--muted); opacity: 0.85; }
+.site-foot .credit { margin-top: 14px; text-align: center; font-size: 0.68rem; letter-spacing: 0.03em; color: var(--muted); opacity: 0.8; }
 
 @media (max-width: 760px) {
   .hero { grid-template-columns: minmax(0, 1fr); gap: 22px; }
@@ -254,3 +254,10 @@ details.faq p { margin: 8px 0 2px; color: var(--muted); }
 .pgcv { display: block; max-width: 100%; }
 .sigov { position: absolute; cursor: grab; touch-action: none; outline: 1.5px dashed var(--line-strong); outline-offset: 2px; background: rgba(255, 217, 59, 0.12); }
 .sigov:active { cursor: grabbing; }
+
+.foot-links { display: flex; justify-content: center; gap: 18px; margin-top: 12px; font-size: 0.8rem; }
+.foot-links a { color: var(--muted); text-decoration: underline; text-underline-offset: 3px; }
+.foot-links a:hover { color: var(--ink); }
+.prose ul { margin: 0 0 10px; padding-left: 22px; display: grid; gap: 8px; }
+.prose p { margin: 0 0 10px; line-height: 1.7; }
+.prose a { text-decoration: underline; text-underline-offset: 3px; }
