@@ -1,5 +1,5 @@
 /* Kompak service worker: simpan halaman dan pustaka supaya bisa dipakai offline. */
-var V = 'kompak-3181bdfb6c';
+var V = 'kompak-fdb57819de';
 var FILES = ["./", "kompres-foto/", "ubah-ukuran-foto/", "potong-foto/", "ubah-format-foto/", "heic-ke-jpg/", "putar-foto/", "watermark-foto/", "hapus-exif-foto/", "gambar-ke-pdf/", "pdf-ke-gambar/", "word-ke-pdf/", "pdf-ke-word/", "pdf-ke-teks/", "ocr-foto-pdf-ke-teks/", "kompres-pdf/", "gabung-pdf/", "pisah-pdf/", "atur-halaman-pdf/", "hapus-halaman-pdf/", "putar-pdf/", "nomor-halaman-pdf/", "watermark-pdf/", "kunci-pdf/", "buka-kunci-pdf/", "tanda-tangan-pdf/", "kompak.css", "kompak.js", "fonts/archivo-latin-wdth-normal.woff2", "vendor/pdf-lib.min.js", "vendor/jszip.min.js", "vendor/pdf.min.js", "vendor/pdf.worker.min.js", "favicon.svg", "icon-192.png", "site.webmanifest"];
 self.addEventListener('install', function (e) {
   e.waitUntil(caches.open(V).then(function (c) {

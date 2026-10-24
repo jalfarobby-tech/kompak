@@ -261,3 +261,9 @@ details.faq p { margin: 8px 0 2px; color: var(--muted); }
 .prose ul { margin: 0 0 10px; padding-left: 22px; display: grid; gap: 8px; }
 .prose p { margin: 0 0 10px; line-height: 1.7; }
 .prose a { text-decoration: underline; text-underline-offset: 3px; }
+.guide-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 22px; }
+.guide-list a { text-decoration: none; }
+.guide-list a strong { font-size: 1.15rem; text-decoration: underline; text-underline-offset: 4px; }
+.guide-list p { margin: 4px 0 0; color: var(--muted); }
+.prose h2 { margin-top: 6px; }
+.prose ol { margin: 0 0 10px; padding-left: 22px; display: grid; gap: 8px; }
